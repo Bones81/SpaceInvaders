@@ -1,29 +1,31 @@
 .grid {
-  display: flex;
-  flex-wrap: wrap;
-  border: solid 1px;
-  width: 300px;
-  height: 300px;
+  border: 1px solid;
+  display: grid;
+  width: 450px;
+  grid-template-columns: repeat(15, 30px);
+  grid-template-rows: repeat(15, 30px);
 }
 
 .grid div {
-  width: 20px;
-  height: 20px;
-}
-
-.shooter {
-  background-color: blue;
+  width: 30px;
+  height: 30px;
 }
 
 .invader {
   background-color: purple;
-  border-radius: 10px;
+  border-radius: 50%;
+}
+
+.shooter {
+  background-color: green;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+}
+
+.laser {
+  background-color: yellow;
 }
 
 .boom {
   background-color: red;
-}
-
-.laser {
-  background-color: orange;
 }
