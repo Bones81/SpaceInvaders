@@ -82,7 +82,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   invaderId = setInterval(moveInvaders, 500)
 
-  
   //shoot at aliens
   function shoot(e) {
     let laserId

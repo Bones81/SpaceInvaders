@@ -29,3 +29,31 @@
 .boom {
   background-color: red;
 }
+
+button {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  margin: 5px;
+}
+
+.controls {
+
+}
+
+#left-btn {
+  background-image: url(images/left.png);
+  
+}
+
+#right-btn {
+  background-image: url(images/right.png);
+}
+
+#fire-btn {
+  background-image: url(images/fire_laser.png);
+}
+
+#restart-btn {
+  background-image: url(images/refresh.png);
+}
